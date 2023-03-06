@@ -3,10 +3,7 @@ body {
   font-family: "Arial";
 }
 
-h1,
-h2,
-h3,
-h4 {
+h1, h2, h3, h4 {
   color: rgb(102, 0, 128);
   font-weight: bold;
 }
@@ -97,6 +94,9 @@ ul li a:hover {
   padding: 10px;
 }
 
+/*===============================================================*/
+/* Tables */
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -104,10 +104,9 @@ table {
   border: 1px solid #ddd;
 }
 
-th,
-td {
+th, td {
   text-align: left;
-  padding: 5px;
+  padding: 4px 10px 4px 5px;  /* top right bottom left */
 }
 
 #footer {
